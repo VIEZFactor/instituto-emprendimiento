@@ -1,0 +1,47 @@
+.full-image{
+    width: 100%;
+}
+
+.gray-h2{
+    font-size: 3em;
+}
+
+.gray-h3{
+    font-size: 1.8em;
+}
+
+.white-section-p{
+    font-size: 1.3em;
+}
+
+.div-purple-bg{
+    background-color: #0039a6;
+}
+
+.white-h2{
+    color: white;
+    font-size: 2.5em;
+}
+
+.white-p{
+    font-size: 1.2em;
+    color: white;
+}
+
+.div-gray-cards>.row>div>.card{
+    background-color: #fafafa;
+    border: 1px solid transparent;
+    padding: 1em 0em;
+    min-height: 350px;
+    margin-bottom: 1em;
+}
+
+.div-gray-cards>.row>div>.card h5{
+    color: #426cbc;
+    font-weight: bold;
+}
+
+.div-gray-cards>.row>div>.card img{
+    max-width: 60px;
+    margin-bottom: 1em;
+}
