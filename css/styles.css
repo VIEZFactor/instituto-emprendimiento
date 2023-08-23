@@ -109,6 +109,7 @@ footer{
 .btn-see-more{
     color: white;
     background-color: #0039a6;
+    font-size: 1em;
 }
 
 .div-light-purple-bg{
@@ -131,7 +132,7 @@ footer{
 }
 
 .div-light-purple-bg .card{
-    min-height: 250px;
+    min-height: 280px;
 }
 
 .div-light-purple-bg .card-title{    
