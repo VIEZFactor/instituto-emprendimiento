@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 
     <title>Instituto de Emprendimiento Eugenio Garza Lagüera</title>
   </head>
@@ -170,15 +171,21 @@
                     <div class="col-12">                        
                         <h2 class="gray-h2 fw-bolder text-center mt-4 mb-5">Tu ruta hacia el éxito profesional comienza aquí​</h2>
                     </div>
-                    <div class="col-12 col-md-6">
-                        <div class="video-responsive">
+                    <div class="col-12 col-md-6">    
+                        <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-tagVideo="https://www.youtube.com/embed/fWmO9bHU_fg">
+                            <img src="img/preview.png" class="img-fluid" alt="Foto 1">    
+                        </a>                        
+                        <!--<div class="video-responsive">
                             <iframe width="100%" src="https://www.youtube.com/embed/fWmO9bHU_fg" frameborder="0" allowfullscreen></iframe>
-                        </div>
+                        </div>-->
                     </div>
-                    <div class="col-12 col-md-6">
-                        <div class="video-responsive">
+                    <div class="col-12 col-md-6">   
+                        <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-tagVideo="https://www.youtube.com/embed/fWmO9bHU_fg">
+                            <img src="img/preview.png" class="img-fluid" alt="Foto 1">    
+                        </a>                        
+                        <!--<div class="video-responsive">
                             <iframe width="100%" src="https://www.youtube.com/embed/fWmO9bHU_fg" frameborder="0" allowfullscreen></iframe>
-                        </div>                        
+                        </div>-->           
                     </div>
                 </div>
                 <div class="row mt-5">
@@ -194,7 +201,12 @@
                             Conoce el dominio .MX: 
                             El inicio de tu identidad digital.
                         </p>
-                        <iframe width="100%" src="https://www.youtube.com/embed/fWmO9bHU_fg" frameborder="0" allowfullscreen></iframe>   
+                        <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-tagVideo="https://www.youtube.com/embed/fWmO9bHU_fg">
+                            <img src="img/preview.png" class="img-fluid" alt="Foto 1">    
+                        </a>                        
+                        <!--<div class="video-responsive">
+                            <iframe width="100%" src="https://www.youtube.com/embed/fWmO9bHU_fg" frameborder="0" allowfullscreen></iframe>
+                        </div>-->       
                         <p class="discover-p">
                             Aprende qué es un dominio .MX y cómo esta elección te brinda un inicio profesional sólido en la web, dándole autenticidad
                             y credibilidad a tu proyecto o emprendimiento. ​
@@ -203,8 +215,13 @@
                     <div class="col-12 col-md-4">
                         <p class="discover-subtitle">
                             Formaliza tu comunicación con un correo profesional.
-                        </p>     
-                        <iframe width="100%" src="https://www.youtube.com/embed/fWmO9bHU_fg" frameborder="0" allowfullscreen></iframe>     
+                        </p>                             
+                        <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-tagVideo="https://www.youtube.com/embed/fWmO9bHU_fg">
+                            <img src="img/preview.png" class="img-fluid" alt="Foto 1">    
+                        </a>                        
+                        <!--<div class="video-responsive">
+                            <iframe width="100%" src="https://www.youtube.com/embed/fWmO9bHU_fg" frameborder="0" allowfullscreen></iframe>
+                        </div>-->       
                         <p class="discover-p">
                             Aprende por qué el correo profesional es fundamental para generar confianza en cada mensaje en tu búsqueda de éxito en línea. ​
                         </p>                 
@@ -212,8 +229,13 @@
                     <div class="col-12 col-md-4">
                         <p class="discover-subtitle">
                             Crea tu espacio en línea con un sitio web
-                        </p>   
-                        <iframe width="100%" src="https://www.youtube.com/embed/fWmO9bHU_fg" frameborder="0" allowfullscreen></iframe>   
+                        </p>                           
+                        <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-tagVideo="https://www.youtube.com/embed/fWmO9bHU_fg">
+                            <img src="img/preview.png" class="img-fluid" alt="Foto 1">    
+                        </a>                        
+                        <!--<div class="video-responsive">
+                            <iframe width="100%" src="https://www.youtube.com/embed/fWmO9bHU_fg" frameborder="0" allowfullscreen></iframe>
+                        </div>-->       
                         <p class="discover-p">
                             Aprende cómo un sitio web impulsa tu presencia en Internet y haz que tu marca esté disponible en todo momento.
                         </p>
@@ -289,5 +311,46 @@
             </div>
         </div>
     </footer>
+    
+    <!--<a type="button" class="btn btn-primary" data-bs-toggle="modal" data-tagVideo="https://www.youtube.com/embed/zcX7OJ-L8XQ" data-bs-target="#exampleModal">
+        Launch demo modal
+    </a>-->
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="ratio ratio-16x9">
+                  <iframe id="videoId" src="https://www.youtube.com/embed/fWmO9bHU_fg?si=LNs0jv-7EtQ2SkBf" allow="autoplay;" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        function autoPlayYouTubeModal() {
+            var triggerOpen = $("body").find('[data-tagVideo]');
+            triggerOpen.click(function() {
+                var theModal = $(this).data("bs-target"),
+                videoSRC = $(this).attr("data-tagVideo"),
+                videoSRCauto = videoSRC + "?autoplay=1";
+                $(theModal + ' iframe').attr('src', videoSRCauto);
+                $(theModal + ' button.btn-close').click(function() {
+                $(theModal + ' iframe').attr('src', videoSRC);
+                });
+            });
+        }
+        
+    </script>
+    <script>
+        $(document).ready(function() {
+          autoPlayYouTubeModal();
+        });
+    </script>
   </body>
 </html>
